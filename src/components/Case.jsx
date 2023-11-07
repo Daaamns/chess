@@ -1,7 +1,14 @@
-import "..styles/Case.css";
+import "../styles/Case.css";
 
 function Case({ color }) {
-  return <div style={{ backgroundColor: `${color}` }} className="case"></div>;
+  return (
+    <div className={"case " + color}>
+      <div
+        className="piece"
+        style={{ backgroundImage: `url("./src/assets/bishop.svg")` }}
+      ></div>
+    </div>
+  );
 }
 
 export default Case;

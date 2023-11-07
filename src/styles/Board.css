@@ -1,3 +1,8 @@
 .board {
-  display: grid;
+  display: flex;
+  width: 400px;
+  height: 400px;
+  flex-wrap: wrap;
+  outline: 1px solid black;
+  margin: calc((100vh - 400px) / 2) auto;
 }
