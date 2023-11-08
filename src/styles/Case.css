@@ -9,6 +9,9 @@
 .noir {
   background-color: purple;
 }
+.beige {
+  background-color: rgb(173, 172, 170);
+}
 
 .piece {
   width: 100%;
